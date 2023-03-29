@@ -10,8 +10,6 @@ require_once "header.php";
     </div>
     <div class="col-md-12">
         <div class="row" id="engine-row">
-
-
             <div class="col-md-3" id="insert">
                 <h2>Número</h2>
                 <form action="engine.php" method="post">
@@ -22,15 +20,9 @@ require_once "header.php";
                     <input type="submit" value="Calcular" class="btn card-btn" id="card-btn">
                 </form>
             </div>
-
-            <div class="col-md-3" id="result">
-                <h2>Resultado</h2>
-                <form action="engine.php" method="get">
-
-                </form>
-            </div>
         </div>
     </div>
+</div>
 </div>
 </body>
 
