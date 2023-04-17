@@ -25,6 +25,10 @@
   min-width: 30%;
 }
 
+.container-fluid {
+  border: 2px solid red;
+}
+
 #main-container {
     background-color: #121212;
     background-repeat: no-repeat;

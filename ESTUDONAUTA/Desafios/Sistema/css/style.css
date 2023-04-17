@@ -1,0 +1,54 @@
+/* HEADER */
+
+.navbar-brand {
+  position: relative;
+}
+
+            #right,
+            #left  {
+                border: 2px solid red;
+            }
+
+            #main-navbar {
+                border: 2px solid blue;
+            }
+
+#logo {
+  width: 90px;
+}
+
+.navbar {
+    color: aliceblue;
+    text-align: justify;
+}
+
+#code-title {
+  color: white;
+  position: absolute;
+  bottom: -2px;
+  font-size: 30px;
+  left: 135px;
+  font-weight: bold;
+}
+
+#main-navbar {
+  background-color: black;
+}
+
+ .navbar-nav {
+  justify-content: flex-end;
+  width: 100%;
+  }
+
+  li.nav-item{
+    color: aliceblue;
+  }
+
+/* .col-md-7,
+.navbar-nav,
+.nav-item li {
+  color: rgb(255, 4, 4);
+  transition: 0.5s;
+  text-decoration: none;
+} 
+ */

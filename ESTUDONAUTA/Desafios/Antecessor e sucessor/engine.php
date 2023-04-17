@@ -1,5 +1,5 @@
 <?php
-require_once "header.php";
+require_once "templates/header.php";
 ?>
 
 
@@ -10,7 +10,7 @@ require_once "header.php";
     </div>
     <div class="col-md-12">
         <div class="row" id="engine-row">
-            <div class="col-md-3" id="insert">
+            <div class="col-md-4" id="insert">
                 <h2>Resultado</h2>
                 <form action="engine.php" method="post">
                     <div class="form-group" id="form-group">
@@ -26,11 +26,14 @@ require_once "header.php";
                         
                     </div>
 
-                    <input class="btn card-btn" id="card-btn" type='button' value='Voltar' onclick='history.go(-1)' />
-
+                   
                 </form>
             </div>
         </div>
+            <div class="col-md-2">
+                 <input class="btn card-btn" id="card-btn" type='button' value='Voltar' onclick='history.go(-1)' />
+            </div>
+        
     </div>
 </div>
 </div>
